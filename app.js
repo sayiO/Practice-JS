@@ -15,3 +15,8 @@ function myFunction2() {
     document.getElementById("demo").innerHTML = arr.concat("Lisah", "Mitchelle", "Tinez");
 
 }
+
+function myFunction3() {
+    document.getElementById("demo").innerHTML = arr.join(" - ");
+
+}

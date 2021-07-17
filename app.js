@@ -1,4 +1,11 @@
 let arr = ["alpha", "gamma", "delta", "simbie", "tanaka", "rachie"];
+let arr2 = arr;
+//demonstrate pass by value and reference
+arr2.push("Angie");
+let name = "Ashleigh";
+let surname = name;
+surname = "Simbisanai";
+
 
 
 function myFunction() {
@@ -28,6 +35,11 @@ function myFunction4() {
 
 
     } else {
-        document.getElementById("demo").innerHTML = "your girlfriend is non-existant...!!!"
+        document.getElementById("demo").innerHTML = "your girlfriend " + gf + " is non-existant...!!!"
     }
+}
+
+function myFunction5() {
+    document.getElementById("demo").innerHTML = arr2;
+
 }

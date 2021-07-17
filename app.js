@@ -13,9 +13,18 @@ arrEx.unshift("blue");
 arrEx.shift();
 let arrEx2 = [];
 arrEx2.push(98);
-arrEx2.push("JavaScript");
+arrEx2.push('\"JavaScript\"');
 
 
+let decimals = [1.1, 56.25, 89.6, 95.63, 75.45];
+let whole = [];
+
+function decToWhole() {
+    for (let i = 0; i < decimals.length; i++) {
+        whole.push((Math.round(decimals[i])));
+    }
+    document.getElementById("demo").innerHTML = whole.join(" - ");
+}
 
 
 

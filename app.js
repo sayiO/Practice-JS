@@ -6,29 +6,40 @@ let name = "Ashleigh";
 let surname = name;
 surname = "Simbisanai";
 
+let arrEx = [];
+arrEx[0] = "Onias";
+arrEx.push("Sayi");
+arrEx.unshift("blue");
+arrEx.shift();
+let arrEx2 = [];
+arrEx2.push(98);
+arrEx2.push("JavaScript");
 
 
-function myFunction() {
+
+
+
+function myFunction1() {
     document.getElementById("demo").innerHTML = arr;
 
 }
 
-function myFunction1() {
+function myFunction2() {
     document.getElementById("demo").innerHTML = arr.slice(2, 5);
 
 }
 
-function myFunction2() {
+function myFunction3() {
     document.getElementById("demo").innerHTML = arr.concat("Lisah", "Mitchelle", "Tinez");
 
 }
 
-function myFunction3() {
+function myFunction4() {
     document.getElementById("demo").innerHTML = arr.join(" - ");
 
 }
 
-function myFunction4() {
+function myFunction5() {
     let gf = prompt("What\'s your girlfriend\'s name.?")
     if (arr.indexOf(gf) > -1) {
         document.getElementById("demo").innerHTML = "your girlfriend " + arr[arr.indexOf(gf)] + " exist.";
@@ -39,7 +50,19 @@ function myFunction4() {
     }
 }
 
-function myFunction5() {
-    document.getElementById("demo").innerHTML = arr2;
+function myFunction6() {
+    document.getElementById("demo").innerHTML = arr;
+
+}
+
+function myFunction7() {
+
+    let favNum = prompt("enter your favorite number");
+    if (arrEx2.indexOf(favNum) > -1) {
+        document.getElementById("demo").innerHTML = "number exists";
+    } else {
+        document.getElementById("demo").innerHTML = "number does not exist";
+    }
+
 
 }

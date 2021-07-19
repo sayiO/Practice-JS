@@ -15,6 +15,15 @@ let arrEx2 = [];
 arrEx2.push(98);
 arrEx2.push('\"JavaScript\"');
 
+let person = {
+    firstName: "Onias",
+    lastName: "sayi",
+    occupation: "software developer"
+}
+
+function objFunction() {
+    document.getElementById("demo").innerHTML = person["lastName"];
+}
 
 let decimals = [1.1, 56.25, 89.6, 95.63, 75.45];
 let whole = [];

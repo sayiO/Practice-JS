@@ -20,9 +20,11 @@ let person = {
     lastName: "sayi",
     occupation: "software developer"
 }
+person.hobby = "soccer";
+delete person.occupation;
 
 function objFunction() {
-    document.getElementById("demo").innerHTML = person["lastName"];
+    document.getElementById("demo").innerHTML = person.hobby;
 }
 
 let decimals = [1.1, 56.25, 89.6, 95.63, 75.45];

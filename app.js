@@ -16,15 +16,15 @@ arrEx2.push(98);
 arrEx2.push('\"JavaScript\"');
 
 let person = {
-    firstName: "Onias",
-    lastName: "sayi",
-    occupation: "software developer"
+    elie: "JavaScript",
+    matt: "jogging",
+    janey: "table building",
+    tim: "sailing"
 }
-person.hobby = "soccer";
 
 function objFunction() {
     for (let i in person) {
-        document.getElementById("demo").innerHTML = person[i];
+        console.log(person[i] + " => " + i);
 
     }
 }

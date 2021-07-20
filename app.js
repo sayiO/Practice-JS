@@ -21,6 +21,28 @@ let person = {
     janey: "table building",
     tim: "sailing"
 }
+let numArr;
+let sum = 0;
+
+function average(numArr) {
+    for (let i = 0; i < numArr.length; i++) {
+        sum = sum + numArr[i];
+
+
+    }
+    return sum / numArr.length;
+
+
+}
+
+function sayHello(name) {
+    if (name === "onias") {
+        return "Hello Boss";
+
+    } else {
+        console.log("Hello" + "" + name);
+    }
+}
 
 function objFunction() {
     for (let i in person) {

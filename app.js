@@ -29,12 +29,26 @@ function objFunction() {
     }
 }
 
+function oddNums() {
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+    let values = [];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 > 0) {
+            values.push(numbers[i]);
+
+        }
+        document.getElementById("demo").innerHTML = values;
+    }
+
+}
+
 function myTinoe() {
+    let favFoods = ["pizza", "ice-cream"];
     let value = Math.random();
-    if (value > 0.5) {
-        document.getElementById("demo").innerHTML = value;
+    if (value >= 0.5) {
+        document.getElementById("demo").innerHTML = favFoods[0];
     } else {
-        document.getElementById("demo").innerHTML = "less than 0.5";
+        document.getElementById("demo").innerHTML = favFoods[1];
     }
 
 

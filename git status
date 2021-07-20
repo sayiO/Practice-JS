@@ -1,0 +1,107 @@
+[33mcommit 7934c96cd3c36396b56f62645378a9b707ad993e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Mon Jul 19 17:12:24 2021 +0200
+
+    demonstrated object iteration in javascript
+
+[33mcommit aeabd2797d87576159498d169ee4aeeca08015b9[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Mon Jul 19 16:53:21 2021 +0200
+
+    demonstrated object iteration in javascript
+
+[33mcommit b780aaf19434bbae32f3eee25b9599d32c063227[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Mon Jul 19 16:18:03 2021 +0200
+
+    demonstrated ceation and manipulation of objects in javascript
+
+[33mcommit 59c53c2da27363f5e043b9fd49a7dea15d1b55ab[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Mon Jul 19 16:11:29 2021 +0200
+
+    demonstrated ceation and manipulation of objects in javascript
+
+[33mcommit 2602c85f3ef21603f2e272e41e10b605492608b6[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 03:54:51 2021 +0200
+
+    demonstrated array iteration using for loop
+
+[33mcommit 6f9b4822939cf7cb5b280ca2a19148583324ada2[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 03:27:16 2021 +0200
+
+    combined exercise
+
+[33mcommit 9d43e4dc6132675bca3e565aced67f189e44ea08[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 02:21:53 2021 +0200
+
+    demonstrated pass by value and reference
+
+[33mcommit 692a531aca9db8fbb9baf11e57a8486e47eb3b4d[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 02:02:41 2021 +0200
+
+    demonstrated the indexOf() method
+
+[33mcommit 8f2efb6dfd4ee118660538d9cbcf11064737c6b9[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 01:49:10 2021 +0200
+
+    demonstrated the join() method
+
+[33mcommit d948a26205826cf26c3e65b0801f545e9d954c1f[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 01:46:20 2021 +0200
+
+    demonstrated the concat() method
+
+[33mcommit 78c7d1f893200d1088e54c09daf82465ac287d08[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 01:43:17 2021 +0200
+
+    demonstrated the slice() method
+
+[33mcommit 665d62be3987e80b68ebf471aafd688bbcf2b745[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 01:32:35 2021 +0200
+
+    demostrated the array join() method
+
+[33mcommit 7e30fd27516ea9763497f0c276a455245ab334f9[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 00:42:18 2021 +0200
+
+    styling the buttons
+
+[33mcommit ca963a3554e2e5db2a542ac8dfb56da183cf75ed[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Sat Jul 17 00:15:42 2021 +0200
+
+    styling the buttons
+
+[33mcommit ffd0002857b08a95fc73a472245fa656887b24cf[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Fri Jul 16 23:58:40 2021 +0200
+
+    added a button and js function bounded on it
+
+[33mcommit b1badb21830db54eb1ac65f4193f49680d309abd[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Fri Jul 16 23:42:21 2021 +0200
+
+    created the three main files
+
+[33mcommit e8a7d41c00effd07cad598f3533156d68365080a[m
+Author: sayiO <sayionias@gmail.com>
+Date:   Fri Jul 16 23:37:33 2021 +0200
+
+    created the three main files
+
+[33mcommit fac04ff51487087a83221f471dbfb5174abffa84[m
+Author: Onias Sayi <sayionias@gmail.com>
+Date:   Fri Jul 16 23:17:47 2021 +0200
+
+    Initial commit

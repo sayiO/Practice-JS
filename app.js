@@ -29,6 +29,17 @@ function objFunction() {
     }
 }
 
+function myTinoe() {
+    let value = Math.random();
+    if (value > 0.5) {
+        document.getElementById("demo").innerHTML = value;
+    } else {
+        document.getElementById("demo").innerHTML = "less than 0.5";
+    }
+
+
+}
+
 let decimals = [1.1, 56.25, 89.6, 95.63, 75.45];
 let whole = [];
 

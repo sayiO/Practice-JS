@@ -24,6 +24,7 @@ body {
 .btn {
     display: inline-block;
     padding: 15px 25px;
+    margin: 20px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;

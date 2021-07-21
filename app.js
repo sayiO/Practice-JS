@@ -21,6 +21,12 @@ let person = {
     janey: "table building",
     tim: "sailing"
 }
+
+let dsiplayName = (function(first, last) {
+    document.getElementById("demo").innerHTML = first + " " + last;
+})("Tinoe", "Sayi");
+
+
 let numArr;
 let sum = 0;
 

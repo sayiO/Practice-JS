@@ -22,6 +22,38 @@ let person = {
     tim: "sailing"
 }
 
+function createCal() {
+    return {
+        add: function(a, b) {
+            return a + b;
+        },
+        subtract: function(a, b) {
+            return a - b;
+        },
+        multiply: function(a, b) {
+            return a * b;
+        },
+        divide: function(a, b) {
+            return a / b;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let dsiplayName = (function(first, last) {
     document.getElementById("demo").innerHTML = first + " " + last;
 })("Tinoe", "Sayi");

@@ -40,6 +40,9 @@ function createCal() {
     }
 }
 
+function difference(a, b) {
+    return a - b;
+}
 
 
 
@@ -52,11 +55,9 @@ function createCal() {
 
 
 
-
-
-let dsiplayName = (function(first, last) {
+let displayName = (function(first, last) {
     document.getElementById("demo").innerHTML = first + " " + last;
-})("Tinoe", "Sayi");
+})("noe", "Sayi");
 
 
 let numArr;

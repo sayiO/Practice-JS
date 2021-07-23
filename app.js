@@ -39,13 +39,44 @@ function createCal() {
 
     }
 }
+let count = 0;
+
+function singleLetterCount(str, ch) {
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) === ch) {
+            count++;
+        }
+
+        return count++;
+    }
+
+
+
+}
 
 function difference(a, b) {
     return a - b;
 }
 
 
+function printDay(i) {
+    const obj = {
+        1: "Sunday",
+        2: "Monday",
+        3: "Tuesday",
+        4: "Wednesday",
+        5: "Thursday",
+        6: "Friday",
+        7: "Saturday"
+    }
+    console.log(obj[i]);
 
+
+}
+
+function lastElement(arr) {
+    return arr[arr.length - 1];
+}
 
 
 

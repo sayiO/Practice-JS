@@ -39,7 +39,20 @@ function createCal() {
 
     }
 }
+//palindrome
 
+function isPalindrome(str) {
+    return str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
+
+
+}
+
+
+
+
+
+
+//count multiple letters ina string
 function multipleLetterCount(str) {
     let finalObj = {};
     for (let i = 0; i < str.length; i++) {

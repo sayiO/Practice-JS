@@ -46,7 +46,7 @@ function multipleLetterCount(str) {
         if (!(str[i] in finalObj)) {
             finalObj[str[i]] = 1;
         } else {
-            finalObj[str[i]]++;
+            finalObj[str[i]]++
         }
     }
     return finalObj;

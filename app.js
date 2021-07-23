@@ -39,18 +39,30 @@ function createCal() {
 
     }
 }
-let count = 0;
+
+
+
+
+
+
+
+
+
+
+
 
 function singleLetterCount(str, ch) {
+    let count = 0;
+
     for (let i = 0; i < str.length; i++) {
-        if (str.charAt(i) === ch) {
+        if (str.charAt(i).toLowerCase() === ch.toLowerCase()) {
             count++;
         }
 
-        return count++;
+
     }
 
-
+    return count++;
 
 }
 

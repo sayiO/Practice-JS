@@ -43,13 +43,18 @@ function createCal() {
 
 let sampleFunc = () => console.log(letVariable);
 
+//variable hoisting
 
+function rooney() {
+    let whore = "the_bitch";
+    wife = "Cooleny";
+}
+console.log(wife);
 
 //palindrome
 
 function isPalindrome(str) {
     return str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
-
 
 }
 

@@ -39,6 +39,12 @@ function createCal() {
 
     }
 }
+//show hoisting 
+
+let sampleFunc = () => console.log(letVariable);
+
+
+
 //palindrome
 
 function isPalindrome(str) {
@@ -46,10 +52,6 @@ function isPalindrome(str) {
 
 
 }
-
-
-
-
 
 
 //count multiple letters ina string

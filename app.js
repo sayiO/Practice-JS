@@ -47,7 +47,7 @@ let sampleFunc = () => console.log(letVariable);
 
 function rooney() {
     let whore = "the_bitch";
-    wife = "Cooleny";
+    let wife = "Cooleny";
 }
 console.log(wife);
 
@@ -246,6 +246,7 @@ function myFunction7() {
 
 
 }
+//printing contents in multi-dimensional arrays
 
 function multiDimenArrays() {
     let nestedArr = [
@@ -254,8 +255,72 @@ function multiDimenArrays() {
         [8, 9, 10, 11]
     ];
     for (let i = 0; i < nestedArr.length; i++) {
-        for (let j = 0; j < nestedArr[i]; j++) {
+        for (let j = 0; j < nestedArr[i].length; j++) {
             console.log(nestedArr[i][j]);
         }
+    }
+}
+//printing even numbers in a multi-dimensioanl array
+
+
+
+function printEvens() {
+    let nestedArr1 = [
+        [1, 2, 3],
+        [4, 5, 6, 7],
+        [8, 9, 10, 11, 12]
+    ];
+    let arrEmp = [];
+
+    for (let i = 0; i < nestedArr1.length; i++) {
+        for (let j = 0; j < nestedArr1[i].length; j++) {
+            if (nestedArr1[i][j] % 2 == 0) {
+                arrEmp.push(nestedArr1[i][j]);
+            }
+            document.getElementById("demo").innerHTML = arrEmp;
+
+
+        }
+
+
+    }
+}
+//sum of elements in multi-dimensional arrays.
+
+function sumTotal() {
+    let nestedArr1 = [
+        [1, 2, 3],
+        [4, 5, 6, 7],
+        [8, 9, 10, 11, 12]
+    ];
+    let sum = 0;
+    for (let i = 0; i < nestedArr1.length; i++) {
+        for (let j = 0; j < nestedArr1[i].length; j++) {
+            sum = sum + nestedArr1[i][j];
+        }
+
+    }
+    console.log(sum);
+}
+
+//function to count numnber of vowels in a multi-dimensional array
+
+function countVowels() {
+    let arr = ["aeiou", ['simbiesanai']];
+    let count = 0;
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            for (let v = 0; v < vowels.length; v++) {
+                if (arr[i][j] === vowels[v]) {
+                    count++;
+                }
+            }
+
+
+        }
+        console.log(count);
+
+
     }
 }

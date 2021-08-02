@@ -352,5 +352,22 @@ function countDown(num) {
             console.log(num);
         }
 
-    }, 500)
+    }, 1000)
+}
+
+
+//randomGame
+
+function randomGame() {
+    var count = 0;
+    var num;
+    var timer = setInterval(function() {
+        num = Math.random();
+        count++;
+        if (num > 0.25) {
+            clearInterval(timer);
+            console.log("The count is:" + count);
+        }
+
+    }, 1000)
 }

@@ -324,3 +324,33 @@ function countVowels() {
 
     }
 }
+//demonstrating higher Order functions
+
+function each(arrH, callBack) {
+    for (let i = 0; i < arrH.length; i++) {
+        callBack(arrH[i]);
+
+    }
+
+}
+
+//timers
+
+/*setTimeout(function() {
+    console.log("Hello bee");
+}, 1000);*/
+
+//countdown timer
+function countDown(num) {
+    var timer = setInterval(function() {
+        num--;
+        if (num === 2) {
+            clearInterval(timer);
+            console.log("DONE");
+
+        } else {
+            console.log(num);
+        }
+
+    }, 500)
+}

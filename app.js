@@ -371,3 +371,35 @@ function randomGame() {
 
     }, 1000)
 }
+
+//isEven function
+
+function isEven(num) {
+    if (num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+//isOdd function 
+
+function isOdd(num) {
+    if (num % 2 === 1) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+//function to check if number is a prime
+
+function isPrime(num) {
+    if (num > 1 && (num % num === 0)) {
+        return true;
+    } else {
+        return false;
+    }
+}
